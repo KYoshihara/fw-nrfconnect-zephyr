@@ -149,7 +149,7 @@ void main(void)
 		return;
 	}
 
-	spi_cfg.operation = SPI_WORD_SET(8);
+	spi_cfg.operation = SPI_WORD_SET(8)|SPI_HOLD_ON_CS ;
 	spi_cfg.frequency = 256000U;
 
 
